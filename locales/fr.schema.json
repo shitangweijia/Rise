@@ -3192,8 +3192,7 @@
       "name": "Produits associés",
       "settings": {
         "heading": {
-          "label": "En-tête",
-          "default": "Vous aimerez peut-être aussi"
+          "label": "En-tête"
         },
         "products_to_show": {
           "label": "Nombre de produits"

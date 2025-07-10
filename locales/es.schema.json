@@ -3192,8 +3192,7 @@
       "name": "Productos relacionados",
       "settings": {
         "heading": {
-          "label": "Encabezado",
-          "default": "También te puede interesar"
+          "label": "Encabezado"
         },
         "products_to_show": {
           "label": "Recuento de productos"

@@ -3192,8 +3192,7 @@
       "name": "관련 제품",
       "settings": {
         "heading": {
-          "label": "제목",
-          "default": "회원님이 좋아할 만한 추천 제품"
+          "label": "제목"
         },
         "products_to_show": {
           "label": "제품 수"

@@ -3192,8 +3192,7 @@
       "name": "Prodotti simili",
       "settings": {
         "heading": {
-          "label": "Titolo",
-          "default": "Potrebbero interessarti anche"
+          "label": "Titolo"
         },
         "products_to_show": {
           "label": "Conteggio prodotti"

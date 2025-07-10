@@ -3192,8 +3192,7 @@
       "name": "相關商品",
       "settings": {
         "heading": {
-          "label": "標題",
-          "default": "您也可能喜歡"
+          "label": "標題"
         },
         "products_to_show": {
           "label": "商品數量"

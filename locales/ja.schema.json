@@ -3192,8 +3192,7 @@
       "name": "関連商品",
       "settings": {
         "heading": {
-          "label": "見出し",
-          "default": "あなたへのおすすめ"
+          "label": "見出し"
         },
         "products_to_show": {
           "label": "商品数"

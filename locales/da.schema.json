@@ -3192,8 +3192,7 @@
       "name": "Relaterede produkter",
       "settings": {
         "heading": {
-          "label": "Overskrift",
-          "default": "Du vil muligvis også synes om"
+          "label": "Overskrift"
         },
         "products_to_show": {
           "label": "Produktantal"

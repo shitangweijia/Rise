@@ -3192,8 +3192,7 @@
       "name": "สินค้าที่เกี่ยวข้อง",
       "settings": {
         "heading": {
-          "label": "หัวเรื่อง",
-          "default": "คุณอาจจะชอบ"
+          "label": "หัวเรื่อง"
         },
         "products_to_show": {
           "label": "จำนวนสินค้า"

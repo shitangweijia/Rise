@@ -3192,8 +3192,7 @@
       "name": "Ähnliche Produkte",
       "settings": {
         "heading": {
-          "label": "Überschrift",
-          "default": "Das könnte dir auch gefallen"
+          "label": "Überschrift"
         },
         "products_to_show": {
           "label": "Produktanzahl"

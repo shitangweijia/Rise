@@ -19,6 +19,11 @@
     },
     "cart-footer": {
       "type": "main-cart-footer",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      },
       "blocks": {
         "subtotal": {
           "type": "subtotal",
@@ -34,12 +39,7 @@
       "block_order": [
         "subtotal",
         "buttons"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
+      ]
     }
   },
   "order": [

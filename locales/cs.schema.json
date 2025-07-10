@@ -3192,8 +3192,7 @@
       "name": "Související produkty",
       "settings": {
         "heading": {
-          "label": "Nadpis",
-          "default": "Mohlo by se vám také líbit"
+          "label": "Nadpis"
         },
         "products_to_show": {
           "label": "Počet produktů"

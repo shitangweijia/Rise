@@ -3192,8 +3192,7 @@
       "name": "Gerelateerde producten",
       "settings": {
         "heading": {
-          "label": "Koptekst",
-          "default": "Wellicht vind je dit ook leuk"
+          "label": "Koptekst"
         },
         "products_to_show": {
           "label": "Aantal producten"

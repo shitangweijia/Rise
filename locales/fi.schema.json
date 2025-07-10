@@ -3192,8 +3192,7 @@
       "name": "Liittyvät tuotteet",
       "settings": {
         "heading": {
-          "label": "Otsikko",
-          "default": "Saatat pitää myös näistä"
+          "label": "Otsikko"
         },
         "products_to_show": {
           "label": "Tuotemäärä"

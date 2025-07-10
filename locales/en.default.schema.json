@@ -2800,7 +2800,6 @@
       "name": "Related products",
       "settings": {
         "heading": {
-          "default": "You may also like",
           "label": "Heading"
         },
         "products_to_show": {

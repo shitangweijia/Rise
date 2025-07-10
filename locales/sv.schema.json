@@ -3192,8 +3192,7 @@
       "name": "Relaterade produkter",
       "settings": {
         "heading": {
-          "label": "Rubrik",
-          "default": "Du kanske också gillar"
+          "label": "Rubrik"
         },
         "products_to_show": {
           "label": "Produkträkning"
