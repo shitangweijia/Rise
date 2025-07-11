@@ -141,6 +141,11 @@
     align-items: flex-end;
     justify-content: flex-end;
   }
+
+  .banner__content.banner__content--YINOLIFE_custom {
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -325,6 +330,11 @@
     align-items: flex-end;
     justify-content: flex-end;
   }
+
+  .banner__content--YINOLIFE_custom {
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -489,4 +499,24 @@
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
   }
+}
+
+.banner__content--YINOLIFE_custom h2{
+  font-weight: var(--font-body-weight-bold);
+}
+.banner__content--YINOLIFE_custom .banner__buttons{
+  border-radius: 38px;
+}
+.banner__content--YINOLIFE_custom .button:after{
+  content:none
+}
+.banner__content--YINOLIFE_custom .button:before{
+  content:none
+}
+.banner__content--YINOLIFE_custom .button{
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 38px;
+  color: #000;
+  gap: 8px;
 }
