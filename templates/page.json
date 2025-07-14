@@ -11,13 +11,44 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_aUJPCC": {
+      "type": "image-banner",
+      "blocks": {
+        "text_xEEa8V": {
+          "type": "text",
+          "settings": {
+            "text": "Know Your Body                                                           Own Your Growth",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_xEEa8V"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/01c1552f5288fb482eef7dd8804d121f7098740f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_aUJPCC"
   ]
 }
