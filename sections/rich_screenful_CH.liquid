@@ -11,7 +11,7 @@
             {%- if block.settings.page_text != blank -%}
               {{ pages[block.settings.page_text].content }}
             {%- else -%}
-              {{ 'home_page.onboarding.no_content' | t }}
+              {{ 'No content available yet' }}
             {%- endif -%}
           </div>
         {%- when 'text' -%}
@@ -21,7 +21,7 @@
               {{ block.settings.text }}
               {%- if block.settings.enlarge_text %}</div>{% endif -%}
             {%- else -%}
-              {{ 'home_page.onboarding.no_content' | t }}
+              {{ 'No content available yet' }}
             {%- endif -%}
           </div>
         {%- when 'button' -%}
@@ -31,22 +31,27 @@
             </a>
           </div>
         {%- when 'image' -%}
-           <div class="rte">
-              <img src="{{ block.settings.image_url | img_url: 'master' }}" alt="{{ block.settings.image_alt }}">
-            </div>
-        {%- when 'liquid' -%}
-            {%- if block.settings.code != blank -%}
-              <div class="rte">
-                {{ block.settings.code }}
-              </div>
+          <div class="rte">
+            {%- if block.settings.image_url != blank -%}
+              {{
+                block.settings.image_url
+                | image_url: width: 2048
+                | image_tag: alt: block.settings.image_alt, loading: 'lazy'
+              }}
             {%- else -%}
-              <div class="rte">
-                {{ 'home_page.onboarding.no_content' | t }}
-              </div>
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
-
-
-
+          </div>
+        {%- when 'liquid' -%}
+          {%- if block.settings.code != blank -%}
+            <div class="rte">
+              {{ block.settings.code }}
+            </div>
+          {%- else -%}
+            <div class="rte">
+              {{ 'No content available yet' }}
+            </div>
+          {%- endif -%}
       {%- endcase -%}
     </div>
   {%- endfor -%}
@@ -147,7 +152,7 @@
         {
           "id": "page_text",
           "type": "page",
-          "label": "选择页面 CH",
+          "label": "选择页面 CH"
         }
       ]
     },
@@ -181,13 +186,6 @@
         }
       ]
     }
-
-
-
-
-    
-
-    
   ],
   "presets": [
     {
@@ -207,4 +205,3 @@
   }
 }
 {% endschema %}
-
