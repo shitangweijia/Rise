@@ -3596,8 +3596,24 @@ details-disclosure > details {
   }
 }
 
-/* YINOLIFE custom */
+/* YINOLIFE custom P */
 .h1_yinolife {
   font-size: calc(var(--font-heading-scale) * 5.6rem);
   font-weight: 600;
+}
+.img_m{
+    display: none;
+}
+
+
+
+/* YINOLIFE custom M */
+
+@media screen and (max-width: 749px){
+  .img_p {
+      display: none;
+  }
+  .img_m {
+      display: block;
+  }
 }
