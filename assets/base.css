@@ -3595,3 +3595,9 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* YINOLIFE custom */
+.h1_yinolife {
+  font-size: calc(var(--font-heading-scale) * 5.6rem);
+  font-weight: 600;
+}
