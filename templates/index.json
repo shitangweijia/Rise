@@ -18,14 +18,33 @@
             "image": "shopify://shop_images/feae35335378f9a8590e3ac93449a2b64c83b554_26604427-33f9-4173-9762-c4776da22495.jpg",
             "image_mobile": "shopify://shop_images/ae51a4f3188eb3c8bc341fea71ad13e8deac0a05_5bb84b1c-1a9c-4864-890d-2c6dcd040c3a.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Image slide",
+            "heading": "YINOLIFE 8 Electrode Smart Scale",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "Buy Now",
             "link": "",
             "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
+            "show_text_box": false,
+            "box_align": "YINOLIFE_custom",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_WmEDcD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/d38dc5ae05d0312f9bdf7c39b72b2329fec20065_a1e5c1a5-f2cf-4a9c-a9c3-666c6c352162.jpg",
+            "image_mobile": "shopify://shop_images/e24eef22d08418ed5f04567a606fe9e730e20084_6943df19-b0b5-48d4-b795-a94af34b36bf.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "YINOLIFE 8 Electrode Smart Scale",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Buy Now",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "YINOLIFE_custom",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
             "color_scheme": ""
@@ -33,7 +52,8 @@
         }
       },
       "block_order": [
-        "slide_YKdTtW"
+        "slide_YKdTtW",
+        "slide_WmEDcD"
       ],
       "name": "自定义幻灯片",
       "settings": {
@@ -41,14 +61,43 @@
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 7,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": ""
+      }
+    },
+    "rich_text_ch_hcPci7": {
+      "type": "rich-text_CH",
+      "blocks": {
+        "heading_Fk4BV9": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_Q9iWQT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fk4BV9",
+        "text_Q9iWQT"
+      ],
+      "name": "rich_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
   "order": [
-    "slideshow_ch_rwCRgp"
+    "slideshow_ch_rwCRgp",
+    "rich_text_ch_hcPci7"
   ]
 }
