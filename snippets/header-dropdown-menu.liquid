@@ -2,10 +2,10 @@
   Renders a standard dropdown style menu for the header.
 
   Usage:
-  {% render 'header-dropdown-menu' %}
+  {% render 'header-dropdown-menu-CH' %}
 {% endcomment %}
 
-<nav class="header__inline-menu">
+<nav class="header__inline-menu header__inline-menu_CH">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
@@ -22,60 +22,82 @@
                   {% endif %}
                 >
                   {{- link.title | escape -}}
+                  {% comment %} {{ '菜单index' | append: forloop.index }} {% endcomment %}
+                  {% comment %} 菜单index: {{ forloop.index }} {% endcomment %}
                 </span>
                 {{- 'icon-caret.svg' | inline_asset_content -}}
               </summary>
               <ul
                 id="HeaderMenu-MenuList-{{ forloop.index }}"
-                class="header__submenu list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup"
+                class="header__submenu list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup {% if forloop.index != 4 %}ul_yinolife page-width{% endif %}"
                 role="list"
                 tabindex="-1"
               >
-                {%- for childlink in link.links -%}
-                  <li>
-                    {%- if childlink.links == blank -%}
-                      <a
-                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
-                        href="{{ childlink.url }}"
-                        class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
-                        {% if childlink.current %}
-                          aria-current="page"
-                        {% endif %}
-                      >
-                        {{ childlink.title | escape }}
-                      </a>
-                    {%- else -%}
-                      <details id="Details-HeaderSubMenu-{{ link.handle }}-{{ childlink.handle }}">
-                        <summary
+                <div class="{% if forloop.index != 4 %}page-width li_box{% endif %}">
+                  {%- for childlink in link.links -%}
+                    <li class="{% if forloop.index != 4 %}li_yinolife{% endif %}">
+                      {%- if childlink.links == blank -%}
+                        <a
+                          target="_blank"
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
-                          class="header__menu-item link link--text list-menu__item focus-inset caption-large"
+                          href="{{ childlink.url }}"
+                          class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
+                          {% if childlink.current %}
+                            aria-current="page"
+                          {% endif %}
                         >
-                          <span>{{ childlink.title | escape }}</span>
-                          {{- 'icon-caret.svg' | inline_asset_content -}}
-                        </summary>
-                        <ul
-                          id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                          class="header__submenu list-menu motion-reduce"
-                        >
-                          {%- for grandchildlink in childlink.links -%}
-                            <li>
-                              <a
-                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                href="{{ grandchildlink.url }}"
-                                class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"
-                                {% if grandchildlink.current %}
-                                  aria-current="page"
-                                {% endif %}
+                          {%- if childlink.type == 'product_link' and childlink.object.featured_image -%}
+                            <span>
+                              <img
+                                src="{{ childlink.object.featured_image | image_url: width: 250, height: 250, crop: 'center' }}"
+                                alt="{{ childlink.object.featured_image.alt | escape }}"
+                                width="30"
+                                height="30"
+                                loading="lazy"
+                                class="menu-item-image"
                               >
-                                {{ grandchildlink.title | escape }}
-                              </a>
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-                      </details>
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
+                            </span>
+                          {%- endif -%}
+                          <span>{{ childlink.title | escape }}</span>
+                        </a>
+                      {%- else -%}
+                        <details
+                          id="Details-HeaderSubMenu-{{ link.handle }}-{{ childlink.handle }}"
+                          open
+                          class="three_level_menu"
+                        >
+                          <summary
+                            id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                            class="header__menu-item link link--text list-menu__item focus-inset caption-large"
+                            onclick="return false;"
+                          >
+                            <span style="text-decoration: none;">{{ childlink.title | escape }}</span>
+                            {% comment %} {{- 'icon-caret.svg' | inline_asset_content -}} {% endcomment %}
+                          </summary>
+                          <ul
+                            id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                            class="header__submenu list-menu motion-reduce"
+                          >
+                            {%- for grandchildlink in childlink.links -%}
+                              <li class="">
+                                <a
+                                  id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                  href="{{ grandchildlink.url }}"
+                                  class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"
+                                  {% if grandchildlink.current %}
+                                    aria-current="page"
+                                  {% endif %}
+                                >
+                                  {{ grandchildlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        </details>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </div>
               </ul>
             </details>
           </header-menu>
@@ -101,3 +123,49 @@
     {%- endfor -%}
   </ul>
 </nav>
+<style>
+  .header__inline-menu_CH .header__submenu.ul_yinolife {
+    position: fixed;
+    left: 0;
+  }
+  .header__inline-menu_CH .header__submenu.ul_yinolife .li_box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 40px 0;
+  }
+  .header__inline-menu_CH .header__submenu.ul_yinolife .li_box li {
+    flex: 1;
+  }
+  .header__inline-menu_CH .header__submenu.ul_yinolife .li_box li a {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__inline-menu_CH .header__submenu.ul_yinolife .li_box li a span:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none !important;
+    color: #000;
+  }
+  .header__inline-menu_CH .header__submenu.ul_yinolife .li_box li a img {
+    width: 250px;
+    height: 250px;
+  }
+  .three_level_menu summary {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none !important;
+  }
+  .three_level_menu ul li {
+    list-style: disc;
+    margin: 0.8rem 4rem;
+  }
+  .three_level_menu ul li a{
+    text-decoration: none !important;
+    padding:0!important;
+  }
+  .three_level_menu ul li a:nth-child(n+2) {
+    padding-top:16px!important;
+  }
+</style>
