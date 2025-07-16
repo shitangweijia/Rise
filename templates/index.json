@@ -67,26 +67,18 @@
         "accessibility_info": ""
       }
     },
-    "rich_text_ch_hcPci7": {
+    "rich_text_ch_UEJt6J": {
       "type": "rich-text_CH",
       "blocks": {
-        "heading_Fk4BV9": {
-          "type": "heading",
+        "liquid_wD9TVM": {
+          "type": "liquid",
           "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_Q9iWQT": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "code": "<div class=\"container section_tow\">\n    <div class=\"row_Y\">\n        <div class=\"col\">\n            <h2>8-Electrode Scale</h2>\n            <p>Get professional-grade body \n                insights in just 20 seconds –step on to analyze 28+ body metrics\n                during your weigh-in</p>\n        </div>\n        <div class=\"col\">\n            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_9VUPq3SxOc?si=nGeXWGu9olfPsoqs\"\n                title=\"YouTube video player\" frameborder=\"0\"\n                allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n                referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n        </div>\n    </div>\n</div>\n<style>\n    .container.section_tow {\n        position: relative;\n    }\n    .container.section_tow .row_Y {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n    }\n\n    @media screen and (max-width: 749px) {}\n</style>"
           }
         }
       },
       "block_order": [
-        "heading_Fk4BV9",
-        "text_Q9iWQT"
+        "liquid_wD9TVM"
       ],
       "name": "rich_CH",
       "settings": {
@@ -98,6 +90,6 @@
   },
   "order": [
     "slideshow_ch_rwCRgp",
-    "rich_text_ch_hcPci7"
+    "rich_text_ch_UEJt6J"
   ]
 }
