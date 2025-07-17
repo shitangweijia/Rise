@@ -88,10 +88,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "home_page_module_puzzle_7Eghka": {
+      "type": "Home-page-module-puzzle",
+      "name": "Home page module puzzle",
+      "settings": {
+        "divider": false,
+        "narrow_column": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_ch_rwCRgp",
-    "rich_text_ch_UEJt6J"
+    "rich_text_ch_UEJt6J",
+    "home_page_module_puzzle_7Eghka"
   ]
 }
