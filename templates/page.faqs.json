@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {background-color: #FAFAFA;}"
+        "section{background-color: #fafafa;}"
       ],
       "settings": {
         "padding_top": 28,
