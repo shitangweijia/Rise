@@ -11,16 +11,38 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "section{background-color: #fafafa;}"
+        "section {background-color: #fafafa;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_screenful_ch_rnYRJn": {
+      "type": "rich_screenful_CH",
+      "blocks": {
+        "liquid_8ziN3G": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"page-width\"><h1 class=\"h1_yinolife\">FAQs</h1></div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_8ziN3G"
+      ],
+      "name": "rich_screen_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_screenful_ch_rnYRJn"
   ]
 }
