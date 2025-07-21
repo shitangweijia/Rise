@@ -13,9 +13,7 @@
   }
 {%- endstyle -%}
 <div
-  class="
-                text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width{% endif %} section-{{ section.id }}-padding
-  "
+  class="text-{{ section.settings.align_text }}{% if section.settings.narrow_column %} page-width{% endif %} section-{{ section.id }}-padding"
 >
   {%- for block in section.blocks -%}
     <div class="theme-block" {{ block.shopify_attributes }}>
@@ -131,7 +129,7 @@
       "unit": "px",
       "label": "下边距",
       "default": 36
-    },
+    }
   ],
   "blocks": [
     {
