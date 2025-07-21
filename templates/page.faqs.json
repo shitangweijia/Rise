@@ -26,13 +26,14 @@
         "liquid_8ziN3G": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"page-width\"><h1 class=\"h1_yinolife\">FAQs</h1></div>"
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width\">\n    <h1 class=\"h1_yinolife\">FAQs</h1>\n</div>\n\n</div>"
           }
         }
       },
       "block_order": [
         "liquid_8ziN3G"
       ],
+      "custom_css": [],
       "name": "rich_screen_CH",
       "settings": {
         "align_text": "center",
