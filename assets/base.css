@@ -3627,4 +3627,7 @@ details-disclosure > details {
       padding-top: 27px;
       padding-bottom: 27px;
   }
+  .h1_yinolife{
+    font-size: calc(var(--font-heading-scale) * 2rem);
+  }
 }
