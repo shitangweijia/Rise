@@ -26,7 +26,7 @@
         "liquid_8ziN3G": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">FAQs</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n</style>"
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">FAQs</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
           }
         }
       },
