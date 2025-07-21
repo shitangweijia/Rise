@@ -38,10 +38,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_screenful_ch_JL3TBY": {
+      "type": "rich_screenful_CH",
+      "blocks": {
+        "liquid_WyDMNz": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_WyDMNz"
+      ],
+      "name": "rich_screen_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_ch_bAQBML"
+    "rich_text_ch_bAQBML",
+    "rich_screenful_ch_JL3TBY"
   ]
 }
