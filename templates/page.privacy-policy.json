@@ -36,10 +36,71 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "rich_text_ch_cbDRL6": {
+      "type": "rich-text_CH",
+      "blocks": {
+        "heading_hHknap": {
+          "type": "heading",
+          "settings": {
+            "title": "Definition of Personal Information"
+          }
+        },
+        "text_gg3MDM": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Personal information refers to any data that can identify an individual, including but not limited to name, date of birth, address, phone number, email, bank account details, and credit card information.</p>"
+          }
+        },
+        "heading_j7eedn": {
+          "type": "heading",
+          "settings": {
+            "title": "Collection Methods"
+          }
+        },
+        "text_FfBPaL": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We collect personal information through user registration, transaction records, customer service inquiries, and may also obtain relevant data from trusted partners.</p>"
+          }
+        },
+        "heading_DKBfqz": {
+          "type": "heading",
+          "settings": {
+            "title": "Purpose of Use"
+          }
+        },
+        "text_RzQUqn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>The collected information is used for service operation, user support, security verification, service improvement, payment processing, and legal compliance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hHknap",
+        "text_gg3MDM",
+        "heading_j7eedn",
+        "text_FfBPaL",
+        "heading_DKBfqz",
+        "text_RzQUqn"
+      ],
+      "name": "rich_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_screenful_ch_Ud8Fti"
+    "rich_screenful_ch_Ud8Fti",
+    "rich_text_ch_cbDRL6"
   ]
 }
