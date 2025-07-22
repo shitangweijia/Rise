@@ -40,10 +40,113 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "collapsible_content_ch_iFR9Le": {
+      "type": "collapsible-content_CH",
+      "blocks": {
+        "collapsible_row_xyJFbc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q1: How to Connect Fitdays+ App with Your Scale?",
+            "icon": "none",
+            "row_content": "<p>Step 1: Prepare Your Phone<br/>Download Fitdays+ App (iOS/Android) and complete registration.<br/><br/>Ensure Bluetooth is enabled on your phone.<br/><br/>Step 2: Activate the Scale<br/>Lightly step on the scale (display will light up).<br/><br/>Wait for \"----\" to appear, indicating it’s ready to pair.<br/><br/>Step 3: Pair via App<br/>Open Fitdays+ → Go to \"Device\" → Tap \"+\" → Select \"Scale\".<br/><br/>Tap \"Search for Bluetooth Pairing\" (keep phone within 3ft/1m of scale).<br/><br/>Step 4: Measure Properly<br/>Stand barefoot on scale, gripping electrode handles firmly.<br/><br/>Hold still for 10 seconds until data appears in app.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mRWnQP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q2:How To Ensure The Most Accurate Readings?",
+            "icon": "none",
+            "row_content": "<p>1. Place the scale on a hard, flat surface (e.g., marble or tile floor). Avoid soft or uneven surfaces like carpets or wooden floors, as they may flex and affect accuracy.<br/><br/>2. Activate auto-calibration: Gently tap the scale to wake it, then wait until the display shows \"0.0\" before stepping on.<br/><br/>3. Stand properly for measurement: Keep your feet evenly positioned and remain still until the reading stabilizes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JbHr7M": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q3: If the smart scale only displays weight without other data?",
+            "icon": "none",
+            "row_content": "<p>1. Refer to Q1: Download and register with Fitdays+ App, then pair the device.<br/><br/>2. Remove shoes/socks – Ensure barefoot contact with all electrodes.<br/><br/>3. Maintain stable connection – Keep phone within 1 meter (Bluetooth ON).<br/><br/>4. Follow Q2 steps – Complete measurement correctly (stand still for 10 seconds).<br/><br/>5. Open the app – Full body composition data will sync to both the screen and app.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dPgt83": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q4: How to Change Units (lb/kg) on Your Scale?",
+            "icon": "none",
+            "row_content": "<p>1. Open the Fitdays+ app (ensure Bluetooth is ON)<br/><br/>2. Step on the scale to activate sync<br/><br/>3. Tap \"Mine\" tab → Select \"Unit Switch\"<br/><br/>4. Select/tap \"Unit Switch\", Choose your preferred unit (kg/lb/st) and Save</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kfQB4J": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q5: Does the scale support multiple users?",
+            "icon": "none",
+            "row_content": "<p>Yes, it supports multiple users.<br/><br/>1. Download, register, and open the Fitdays+ app.<br/><br/>2. Tap Health → Scale → Profile icon (top-right) → Management → +Add Member, enter the user's details, and tap Confirm to complete the setup.<br/><br/>3. Up to 24 users can be added this way.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kwqCXa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q6: Does YINOLIFE scale come with battery?",
+            "icon": "none",
+            "row_content": "<p>1. Yes! All YINOLIFE body fat scales include  batteries.<br/><br/>2. To start using:<br/><br/>3. Remove the insulation tab (found under the scale)<br/><br/>4. Download, register, and open the Fitdays+ appStep on to activate – ready to measure!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7iNBLK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q7: How can I sync data to Samsung Health?",
+            "icon": "none",
+            "row_content": "<p>Please download Fitdays+ App, and turn on Samsung Health in \"Mine\"- \"Sync Date To 3rd Party Apps\" to sync. You can log in with your Samsung Health account, and the saved data in Fitdays+ will be automatically synced to Samsung Health.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GP6GXr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q8: Is replacement service available for a malfunctioning scale?",
+            "icon": "none",
+            "row_content": "<p>Yes! YINOLIFE provides a 1-year warranty covering malfunctioning scales. To request service:<br/><br/>1. Email Support: Contact support@yinolife.com with:<br/><br/>· Your order number<br/><br/>· Description of the malfunction (e.g., \"Display errors\", \"Inconsistent readings\")<br/><br/>· Photos/video (if applicable)<br/><br/>2. Quick Process: We’ll evaluate and usually resolve within 24 hours (replacement or guided repair).<br/><br/>Before Contacting Us:<br/>✔ Verify battery installation<br/>✔ Ensure proper calibration (Light Step to Zero)<br/>✔ Check for visible damage</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xyJFbc",
+        "collapsible_row_mRWnQP",
+        "collapsible_row_JbHr7M",
+        "collapsible_row_dPgt83",
+        "collapsible_row_kfQB4J",
+        "collapsible_row_kwqCXa",
+        "collapsible_row_7iNBLK",
+        "collapsible_row_GP6GXr"
+      ],
+      "name": "手风琴",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "section",
+        "container_color_scheme": "scheme-f434e4ff-b419-4fe8-9fd9-62534d88bd93",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "main",
-    "rich_screenful_ch_rnYRJn"
+    "rich_screenful_ch_rnYRJn",
+    "collapsible_content_ch_iFR9Le"
   ]
 }
