@@ -23,7 +23,7 @@
         "liquid_bkBrLf": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">Privacy Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">YINOLIFE Shipping Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
           }
         }
       },
@@ -43,92 +43,131 @@
         "heading_hHknap": {
           "type": "heading",
           "settings": {
-            "title": "Definition of Personal Information"
+            "title": "Free Shipping"
           }
         },
         "text_gg3MDM": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Personal information refers to any data that can identify an individual, including but not limited to name, date of birth, address, phone number, email, bank account details, and credit card information.</p>"
+            "text": "<p>All orders enjoy free shipping within the contiguous United States. Orders to outlying islands require prior contact before purchase.</p>"
           }
         },
         "heading_j7eedn": {
           "type": "heading",
           "settings": {
-            "title": "Collection Methods"
+            "title": "Shipping Method"
           }
         },
         "text_FfBPaL": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We collect personal information through user registration, transaction records, customer service inquiries, and may also obtain relevant data from trusted partners.</p>"
+            "text": "<p>We select the most reliable shipping carrier for your order. Delivery dates/times generally cannot be specified unless arranged prior to ordering.</p>"
           }
         },
         "heading_DKBfqz": {
           "type": "heading",
           "settings": {
-            "title": "Purpose of Use"
+            "title": "Processing Time"
           }
         },
         "text_RzQUqn": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>The collected information is used for service operation, user support, security verification, service improvement, payment processing, and legal compliance.</p>"
+            "text": "<p>All orders are processed within 3-5 business days. During peak seasons, processing may take slightly longer.</p>"
           }
         },
         "heading_bdbeTL": {
           "type": "heading",
           "settings": {
-            "title": "Sharing Policy"
+            "title": "Delivery Timeline"
           }
         },
         "text_y9pdDf": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We will not share personal information with third parties without user consent, except when required by law, in emergency safety situations, or with disclosed partners (e.g., payment processors).</p>"
+            "text": "<p>Most orders arrive within 7 days after shipment. Extreme weather or unforeseen circumstances may extend delivery up to 10 days.</p>"
           }
         },
         "heading_7EfUGn": {
           "type": "heading",
           "settings": {
-            "title": "User Rights"
+            "title": "Order Tracking"
           }
         },
         "text_9VrtiH": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>You have the right to access, correct, or delete your personal information, as well as request restriction of processing. We will handle valid requests promptly after identity verification.</p>"
+            "text": "<p>Tracking information will be available on our website within 3 business day after shipment.</p>"
           }
         },
         "heading_Yk7iCY": {
           "type": "heading",
           "settings": {
-            "title": "Policy Updates"
+            "title": "Shipping Areas"
           }
         },
         "text_XwiGcT": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We may update this policy as needed. Revised versions will take effect immediately upon posting on our official website without separate notice.</p>"
+            "text": "<p>We currently ship to the contiguous U.S. only (excluding outlying islands and territories).</p>"
           }
         },
         "heading_qDzt3b": {
           "type": "heading",
           "settings": {
-            "title": "Contact Us"
+            "title": "Damaged Shipments"
           }
         },
         "text_ndU3Gt": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>For any questions, please email support@yinolife.com (available weekdays 10:00-18:00).</p>"
+            "text": "<p>If your order arrives damaged, please contact support@yinolife.com within 7 business days with photos of the damaged items and packaging. We will assist with the carrier claim process.</p>"
+          }
+        },
+        "heading_teXGqk": {
+          "type": "heading",
+          "settings": {
+            "title": "Delivery Issues"
+          }
+        },
+        "text_gXcLKC": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>For tracking information that hasn't updated in 10 business days, or other delivery concerns, please email support@yinolife.com.</p>"
+          }
+        },
+        "heading_qJT3ep": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns"
+          }
+        },
+        "text_Y6WGyj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Please refer to our separate Return & Refund Policy for detailed information.</p>"
+          }
+        },
+        "heading_w46wj6": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Us"
+          }
+        },
+        "text_GxeywP": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>For any shipping-related questions, please email support@yinolife.com.</p>"
           }
         }
       },
@@ -146,7 +185,13 @@
         "heading_Yk7iCY",
         "text_XwiGcT",
         "heading_qDzt3b",
-        "text_ndU3Gt"
+        "text_ndU3Gt",
+        "heading_teXGqk",
+        "text_gXcLKC",
+        "heading_qJT3ep",
+        "text_Y6WGyj",
+        "heading_w46wj6",
+        "text_GxeywP"
       ],
       "custom_css": [
         "h2 {font-weight: 600; font-size: 4rem;}",
