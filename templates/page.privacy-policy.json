@@ -148,6 +148,9 @@
         "heading_qDzt3b",
         "text_ndU3Gt"
       ],
+      "custom_css": [
+        "h2 {font-weight: 600;}"
+      ],
       "name": "rich_CH",
       "settings": {
         "align_text": "center",
