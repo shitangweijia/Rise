@@ -11,24 +11,35 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "rich_screenful_ch_jNw4DW": {
+      "type": "rich_screenful_CH",
+      "blocks": {
+        "liquid_WNMeWV": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"container user_manual_tow\">\n    <div class=\"row page-width\">\n        <div class=\"col\">\n            <div>\n                <span>Contact Us</span>\n                <span>For all your product, warranty, support, and company inquiries，please send us a message or email\n                    us.</span>\n                <span>\n                    <span>\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"33\" height=\"24\" viewBox=\"0 0 33 24\" fill=\"none\">\n                            <path\n                                d=\"M29.3475 0H3.65246C1.63903 0 0 1.62015 0 3.61037V20.3896C0 22.3799 1.63903 24 3.65246 24H29.3475C31.361 24 33 22.3799 33 20.3896V3.61037C33 1.62015 31.361 0 29.3475 0ZM30.8085 20.3896C30.8085 21.1839 30.1511 21.8338 29.3475 21.8338H3.65246C2.84891 21.8338 2.19147 21.1839 2.19147 20.3896V3.61037C2.19147 2.81608 2.84891 2.16622 3.65246 2.16622H29.3475C30.1511 2.16622 30.8085 2.81608 30.8085 3.61037V20.3896Z\"\n                                fill=\"#333333\" />\n                            <path\n                                d=\"M27.4346 5.73601L16.5 12.5551L5.5654 5.73601C5.05406 5.4156 4.37836 5.56902 4.05417 6.07447C3.73002 6.57992 3.88524 7.24784 4.39658 7.56829L15.9018 14.7439C16.0845 14.8568 16.2853 14.9109 16.4862 14.9109H16.5227C16.7236 14.9109 16.9245 14.8568 17.1071 14.7439L28.6124 7.56829C29.1237 7.24787 29.2789 6.57996 28.9548 6.07447C28.6215 5.5645 27.9459 5.4156 27.4346 5.73601Z\"\n                                fill=\"#333333\" />\n                        </svg>\n                    </span>\n                    <span>\n                        support@yinolife.com\n                    </span>\n                </span>\n                <span>We'll get back to you within 3 business day.</span>\n            </div>\n            <div style=\"line-height: 1;\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0642/7059/8262/files/1_1.png?v=1753068881\" alt=\"\">\n            </div>\n        </div>\n    </div>\n</div>\n<style>\n    .container.user_manual_tow {\n        position: relative;\n        border-radius: 8px;\n        background: #FAFAFA;\n    }\n\n    .container.user_manual_tow .row {\n        padding-top: 6rem;\n        border-radius: 8px;\n        /* background: #FAFAFA; */\n    }\n\n    .container.user_manual_tow .row .col {\n        display: flex;\n        align-items: center;\n\n    }\n\n    .container.user_manual_tow .row .col>div:nth-child(2) img {\n        display: block;\n        border: none;\n        margin-bottom: 0;\n    }\n\n    .container.user_manual_tow .row .col>div:first-child {\n        flex: 1;\n        display: flex;\n        flex-direction: column;\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(1) {\n        color: #333;\n        font-size: 4rem;\n        font-weight: 600;\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(3) {\n        display: flex;\n        gap: 1.6rem;\n        align-items: center;\n        /* justify-content:center; */\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(3) {\n        color: #333;\n        font-size: 2.4rem;\n        font-weight: 600;\n\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(3) span:nth-child(1) {\n        width: 33px;\n        height: 24px;\n        position: relative;\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(3) span:nth-child(1) svg {\n        position: absolute;\n    }\n\n    .container.user_manual_tow .row .col>div:first-child span:nth-child(4) {\n        padding-left: 5.3rem;\n    }\n\n    @media screen and (max-width: 749px) {\n        .container.user_manual_tow .row .col {\n            flex-direction: column-reverse;\n        }\n\n        .container.user_manual_tow .row .col>div:first-child span:nth-child(3) {\n            flex-direction: column;\n            align-content: flex-start;\n            flex-wrap: wrap;\n            align-items: flex-start;\n        }\n        .container.user_manual_tow .row .col>div:first-child span:nth-child(4){\n            padding-left: 0;\n        }\n        .container.user_manual_tow .row .col>div:first-child span:nth-child(1){\n            font-size: 2.4rem;\n        }\n        .container.user_manual_tow .row .col>div:first-child span:nth-child(3){\n            font-size: 1.6rem;\n        }\n        .container.user_manual_tow{\n           padding: 24px 0; \n        }\n    }\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_WNMeWV"
+      ],
+      "name": "rich_screen_CH",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "rich_screenful_ch_jNw4DW"
   ]
 }

@@ -23,7 +23,7 @@
         "liquid_bkBrLf": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">YINOLIFE Return & Refund Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">Privacy Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
           }
         }
       },
@@ -43,92 +43,92 @@
         "heading_hHknap": {
           "type": "heading",
           "settings": {
-            "title": "Returns & Exchanges"
+            "title": "Definition of Personal Information"
           }
         },
         "text_gg3MDM": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We want you to be completely satisfied with your purchase. If you're not happy with your order, we offer a straightforward return process.</p>"
+            "text": "<p>Personal information refers to any data that can identify an individual, including but not limited to name, date of birth, address, phone number, email, bank account details, and credit card information.</p>"
           }
         },
         "heading_j7eedn": {
           "type": "heading",
           "settings": {
-            "title": "Eligibility & Conditions"
+            "title": "Collection Methods"
           }
         },
         "text_FfBPaL": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Return Window: 7 days from the date of delivery.<br/>Prior Notification Required: Contact support@yinolife.com before returning any item. Unauthorized returns will be refused.<br/>Non-Returnable Items:<br/>- Opened or used products (unless defective)<br/>- Products marked as \"final sale\" or \"non-returnable\"<br/>- Items with customer-induced damage (scratches, stains, etc.)<br/>- Products with missing original packaging or accessories</p>"
+            "text": "<p>We collect personal information through user registration, transaction records, customer service inquiries, and may also obtain relevant data from trusted partners.</p>"
           }
         },
         "heading_DKBfqz": {
           "type": "heading",
           "settings": {
-            "title": "Return Process"
+            "title": "Purpose of Use"
           }
         },
         "text_RzQUqn": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Contact Us First: Email support@yinolife.com with your order details and reason for return.<br/>Approval & Instructions: We'll review your request and provide return instructions if eligible.<br/>Ship Back: Use a trackable courier service (return shipping costs are the customer's responsibility).<br/>Refund Processing:<br/>- Credit Cards: Refund issued to the original payment method (may take 5-10 business days)<br/>- Bank Transfer/PayPal: Refund processed to the original account<br/>- Transaction Fees: 2.6% (credit cards), 3.6% (PayPal), or 3.5% (Affirm) deducted from refund</p>"
+            "text": "<p>The collected information is used for service operation, user support, security verification, service improvement, payment processing, and legal compliance.</p>"
           }
         },
         "heading_bdbeTL": {
           "type": "heading",
           "settings": {
-            "title": "Defective or Damaged Items"
+            "title": "Sharing Policy"
           }
         },
         "text_y9pdDf": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Replacement Period: Report defects immediately upon receipt (subject to manufacturer warranty).<br/>Process:<br/>- Contact support@yinolife.com with proof of issue (photos/video)<br/>- If confirmed defective, we'll arrange a replacement or repair<br/>- Original product must be returned in its original packaging with all accessories</p>"
+            "text": "<p>We will not share personal information with third parties without user consent, except when required by law, in emergency safety situations, or with disclosed partners (e.g., payment processors).</p>"
           }
         },
         "heading_7EfUGn": {
           "type": "heading",
           "settings": {
-            "title": "Non-Qualifying Defects"
+            "title": "User Rights"
           }
         },
         "text_9VrtiH": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Damage caused after delivery<br/><br/>Cosmetic imperfections (minor scratches, packaging wear)<br/><br/>Products purchased from third-party sellers<br/><br/>Items without a valid manufacturer warranty</p>"
+            "text": "<p>You have the right to access, correct, or delete your personal information, as well as request restriction of processing. We will handle valid requests promptly after identity verification.</p>"
           }
         },
         "heading_Yk7iCY": {
           "type": "heading",
           "settings": {
-            "title": "Final Notes"
+            "title": "Policy Updates"
           }
         },
         "text_XwiGcT": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Refunds/exchanges are not available after 30 days from purchase.<br/>YINOLIFE reserves the right to refuse returns that do not meet policy conditions.</p>"
+            "text": "<p>We may update this policy as needed. Revised versions will take effect immediately upon posting on our official website without separate notice.</p>"
           }
         },
         "heading_qDzt3b": {
           "type": "heading",
           "settings": {
-            "title": "Questions?"
+            "title": "Contact Us"
           }
         },
         "text_ndU3Gt": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Email support@yinolife.com for assistance.</p>"
+            "text": "<p>For any questions, please email support@yinolife.com (available weekdays 10:00-18:00).</p>"
           }
         }
       },
