@@ -23,7 +23,7 @@
         "liquid_bkBrLf": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">Privacy Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">Help Center</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
           }
         }
       },
@@ -43,110 +43,20 @@
         "heading_hHknap": {
           "type": "heading",
           "settings": {
-            "title": "Definition of Personal Information"
+            "title": "Need Help With Your Scale?"
           }
         },
         "text_gg3MDM": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Personal information refers to any data that can identify an individual, including but not limited to name, date of birth, address, phone number, email, bank account details, and credit card information.</p>"
-          }
-        },
-        "heading_j7eedn": {
-          "type": "heading",
-          "settings": {
-            "title": "Collection Methods"
-          }
-        },
-        "text_FfBPaL": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>We collect personal information through user registration, transaction records, customer service inquiries, and may also obtain relevant data from trusted partners.</p>"
-          }
-        },
-        "heading_DKBfqz": {
-          "type": "heading",
-          "settings": {
-            "title": "Purpose of Use"
-          }
-        },
-        "text_RzQUqn": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>The collected information is used for service operation, user support, security verification, service improvement, payment processing, and legal compliance.</p>"
-          }
-        },
-        "heading_bdbeTL": {
-          "type": "heading",
-          "settings": {
-            "title": "Sharing Policy"
-          }
-        },
-        "text_y9pdDf": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>We will not share personal information with third parties without user consent, except when required by law, in emergency safety situations, or with disclosed partners (e.g., payment processors).</p>"
-          }
-        },
-        "heading_7EfUGn": {
-          "type": "heading",
-          "settings": {
-            "title": "User Rights"
-          }
-        },
-        "text_9VrtiH": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>You have the right to access, correct, or delete your personal information, as well as request restriction of processing. We will handle valid requests promptly after identity verification.</p>"
-          }
-        },
-        "heading_Yk7iCY": {
-          "type": "heading",
-          "settings": {
-            "title": "Policy Updates"
-          }
-        },
-        "text_XwiGcT": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>We may update this policy as needed. Revised versions will take effect immediately upon posting on our official website without separate notice.</p>"
-          }
-        },
-        "heading_qDzt3b": {
-          "type": "heading",
-          "settings": {
-            "title": "Contact Us"
-          }
-        },
-        "text_ndU3Gt": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>For any questions, please email support@yinolife.com (available weekdays 10:00-18:00).</p>"
+            "text": "<p>Please contact us with:<br/>1. Your order number (e.g., #10XX)<br/>2. A Pic or short video showing the issue<br/>3  Contact Us：support@yinolife.com<br/>We’ll resolve it quickly!</p>"
           }
         }
       },
       "block_order": [
         "heading_hHknap",
-        "text_gg3MDM",
-        "heading_j7eedn",
-        "text_FfBPaL",
-        "heading_DKBfqz",
-        "text_RzQUqn",
-        "heading_bdbeTL",
-        "text_y9pdDf",
-        "heading_7EfUGn",
-        "text_9VrtiH",
-        "heading_Yk7iCY",
-        "text_XwiGcT",
-        "heading_qDzt3b",
-        "text_ndU3Gt"
+        "text_gg3MDM"
       ],
       "custom_css": [
         "h2 {font-weight: 600; font-size: 4rem;}",
