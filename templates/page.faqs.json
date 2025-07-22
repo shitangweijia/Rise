@@ -136,7 +136,7 @@
         "layout": "section",
         "container_color_scheme": "scheme-f434e4ff-b419-4fe8-9fd9-62534d88bd93",
         "color_scheme": "scheme-1",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 48,
