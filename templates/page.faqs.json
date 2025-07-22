@@ -127,6 +127,9 @@
         "collapsible_row_7iNBLK",
         "collapsible_row_GP6GXr"
       ],
+      "custom_css": [
+        "h3 {font-weight: 700;}"
+      ],
       "name": "手风琴",
       "settings": {
         "caption": "",
