@@ -11,13 +11,35 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_screenful_ch_Ud8Fti": {
+      "type": "rich_screenful_CH",
+      "blocks": {
+        "liquid_bkBrLf": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"background-color: #FAFAFA;\">\n<div class=\"page-width page_title\">\n    <h1 class=\"h1_yinolife\">Privacy Policy</h1>\n</div>\n\n</div>\n<style>\n    .page_title .h1_yinolife {\n        margin: 0;\n        padding: 10rem 0;\n    }\n    \n@media screen and (max-width: 749px){\n    .page_title{\n        text-align: center;\n    }\n    .page_title .h1_yinolife {\n        padding: 2.4rem 0;\n    }\n}\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_bkBrLf"
+      ],
+      "name": "rich_screen_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_screenful_ch_Ud8Fti"
   ]
 }
