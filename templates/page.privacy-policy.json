@@ -149,8 +149,8 @@
         "text_ndU3Gt"
       ],
       "custom_css": [
-        "h2 {font-weight: 600;}",
-        "p{padding-bottom: 3rem}"
+        "h2 {font-weight: 600; font-size: 4rem;}",
+        "p {padding-bottom: 3rem;}"
       ],
       "name": "rich_CH",
       "settings": {
