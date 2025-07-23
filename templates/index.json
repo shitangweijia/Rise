@@ -106,7 +106,7 @@
         "divider": false,
         "narrow_column": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     }
   },
