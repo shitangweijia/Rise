@@ -14,9 +14,15 @@
 
   #shopify-section-{{ section.id }}{
     background-color: #000;
+    width:100%;
+    positon:relative;
+    overflow: hidden;
   }
   .section-{{ section.id }}-padding{
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
   }
   .{{ section.id }}_email{
     display: flex;
@@ -27,6 +33,59 @@
     font-size: 2.4rem;
     font-weight: 700;
   }
+  .{{ section.id }}_email span:nth-child(2){
+    margin-bottom: .8rem;
+  }
+  .{{ section.id }}_email .newsletter-form{
+    width:56rem;
+    max-width:56rem;
+  }
+  .{{ section.id }}_email .newsletter-form__field-wrapper .field__input{
+    border-radius: 59px;
+    padding-left: 4.8rem;
+  }
+  .{{ section.id }}_email .field__label,
+  .{{ section.id }}_email .field__input:not(:placeholder-shown) ~ .field__label,
+  .{{ section.id }}_email .field__input:focus ~ .field__label{
+    left:4.8rem;
+  }
+  .{{ section.id }}_email .newsletter-form__button{
+    width:9.6rem;
+  }
+  .{{ section.id }}_menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .{{ section.id }}_menu > div{
+    flex:1;
+  }
+  .{{ section.id }}_menu > div > p:first-child{
+    font-weight: 700;
+    color: #FFF;
+  }
+  .{{ section.id }}_menu > div > p:nth-child(n+2),
+  .{{ section.id }}_menu > div > p:nth-child(n+2) a,
+  .{{ section.id }}_menu > div span > div:nth-child(2){
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  .{{ section.id }}_menu > div span > div:nth-child(1){
+    display: flex;
+    /* align-items: center; */
+    gap: .8rem;
+    font-weight: 600;
+  }
+  .{{ section.id }}_menu > div span > div:nth-child(2){
+    padding-left: 2.9rem;
+  }
+  .{{ section.id }}_line{
+    height: 1px;
+    background: #808080;
+    display: block !important;
+    width: 10000rem;
+    margin-left: -100rem;
+  }
 {%- endstyle -%}
 <div
   class="text-{{ section.settings.align_text }}{% if section.settings.narrow_column %} page-width{% endif %} section-{{ section.id }}-padding"
@@ -35,14 +94,14 @@
     <span>Subscribe</span>
     <span>Sign up to get the latest on sales, new releases and more</span>
     <span>
-      <div {{ block.shopify_attributes }}>
+      <div class="">
         {% form 'customer', class: 'newsletter-form' %}
           <input type="hidden" name="contact[tags]" value="newsletter">
           <div
             class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
-              style="--animation-order: {{ forloop.index }};"
+              style=""
             {% endif %}
           >
             <div class="field">
@@ -77,8 +136,11 @@
                 aria-label="{{ 'newsletter.button_label' | t }}"
               >
                 <span class="svg-wrapper">
-                  {{- 'icon-arrow.svg' | inline_asset_content -}}
-
+                  {% comment %} {{- 'icon-arrow.svg' | inline_asset_content -}} {% endcomment %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
+                    <path d="M19.565 0H2.43497C1.09269 0 0 1.0801 0 2.40691V13.5931C0 14.9199 1.09269 16 2.43497 16H19.565C20.9073 16 22 14.9199 22 13.5931V2.40691C22 1.0801 20.9073 0 19.565 0ZM20.539 13.5931C20.539 14.1226 20.1007 14.5559 19.565 14.5559H2.43497C1.89927 14.5559 1.46098 14.1226 1.46098 13.5931V2.40691C1.46098 1.87739 1.89927 1.44414 2.43497 1.44414H19.565C20.1007 1.44414 20.539 1.87739 20.539 2.40691V13.5931Z" fill="#808080"/>
+                    <path d="M18.2897 3.82401L11 8.37007L3.71027 3.82401C3.36937 3.6104 2.91891 3.71268 2.70278 4.04965C2.48668 4.38661 2.59016 4.83189 2.93105 5.04553L10.6012 9.82929C10.723 9.90452 10.8569 9.94061 10.9908 9.94061H11.0152C11.1491 9.94061 11.283 9.90452 11.4047 9.82929L19.0749 5.04553C19.4158 4.83192 19.5193 4.38664 19.3032 4.04965C19.081 3.70967 18.6306 3.6104 18.2897 3.82401Z" fill="#808080"/>
+                  </svg>
                 </span>
               </button>
             </div>
@@ -109,7 +171,42 @@
       </div>
     </span>
   </div>
-  <div class="{{ section.id }}_menu"></div>
+  <div class="{{ section.id }}_menu">
+    <div>
+      <p>Products</p>
+      <p><a href="" target="_blank">4 Electrode Smart Scale</a></p>
+      <p><a href="" target="_blank">4.3" Color Display Smart Scale</a></p>
+      <p><a href="" target="_blank">8 Electrode Professional Scale</a></p>
+    </div>
+    <div>
+      <p>Support</p>
+      <p><a href="/pages/faqs" target="_blank">FAQs</a></p>
+      <p><a href="/pages/user-manuals" target="_blank">User Manuals</a></p>
+      <p><a href="/pages/contact-us" target="_blank">Contact Us</a></p>
+    </div>
+    <div>
+      <p>Customer Service</p>
+      <p><a href="/pages/privacy-policy" target="_blank">Privacy Policy</a></p>
+      <p><a href="/pages/shiping-terms" target="_blank">Shiping Terms</a></p>
+      <p><a href="/pages/return-terms" target="_blank">Return Terms</a></p>
+    </div>
+    <div>
+      <p>Contact Us</p>
+      <p>For all your product, warranty, support, and company inquiries，please send us a message or email us.</p>
+      <span>
+        <div>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+              <path d="M16.8971 0H2.10293C0.943687 0 0 0.945087 0 2.10605V11.8939C0 13.0549 0.943687 14 2.10293 14H16.8971C18.0563 14 19 13.0549 19 11.8939V2.10605C19 0.945087 18.0563 0 16.8971 0ZM17.7382 11.8939C17.7382 12.3573 17.3597 12.7364 16.8971 12.7364H2.10293C1.64028 12.7364 1.26175 12.3573 1.26175 11.8939V2.10605C1.26175 1.64272 1.64028 1.26363 2.10293 1.26363H16.8971C17.3597 1.26363 17.7382 1.64272 17.7382 2.10605V11.8939Z" fill="white"/>
+              <path d="M15.7957 3.34601L9.49999 7.32381L3.20432 3.34601C2.90991 3.1591 2.52087 3.2486 2.33422 3.54344C2.14759 3.83829 2.23695 4.2279 2.53136 4.41483L9.15561 8.60063C9.26075 8.66645 9.37641 8.69804 9.49206 8.69804H9.51309C9.62874 8.69804 9.74442 8.66645 9.84955 8.60063L16.4738 4.41483C16.7682 4.22793 16.8576 3.83831 16.6709 3.54344C16.479 3.24596 16.0901 3.1591 15.7957 3.34601Z" fill="white"/>
+            </svg>
+          </span>
+          <span>support@yinolife.com</span>
+        </div>
+        <div>We’ll get back to you within 3 business day.</div>
+      </span>
+    </div>
+  </div>
   <div class="{{ section.id }}_line"></div>
   <div class="{{ section.id }}_icons"></div>
 </div>
