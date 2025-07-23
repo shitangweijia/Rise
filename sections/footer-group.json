@@ -11,8 +11,20 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "footer_ch_VKMgVH": {
+      "type": "footer-CH",
+      "name": "footer_CH",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
     "footer": {
       "type": "footer",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
@@ -30,6 +42,7 @@
     }
   },
   "order": [
+    "footer_ch_VKMgVH",
     "footer"
   ]
 }
