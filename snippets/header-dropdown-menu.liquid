@@ -49,7 +49,7 @@
                           {%- if childlink.type == 'product_link' and childlink.object.featured_image -%}
                             <span>
                               <img
-                                src="{{ childlink.object.images.last | image_url: width: 250, height: 250, crop: 'center' }}"
+                                src="{{ childlink.object.images.last | image_url: width: 250, height: 288, crop: 'center' }}"
                                 alt="{{ childlink.object.images.last.alt | escape }}"
                                 width="30"
                                 height="30"
@@ -149,7 +149,7 @@
   }
   .header__inline-menu_CH .header__submenu.ul_yinolife .li_box li a img {
     width: 250px;
-    height: 250px;
+    height: 280px;
   }
   .header__inline-menu_CH .header__submenu .header__submenu {
     background-color: #fff;
