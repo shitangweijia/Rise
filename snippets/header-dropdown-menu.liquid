@@ -49,8 +49,8 @@
                           {%- if childlink.type == 'product_link' and childlink.object.featured_image -%}
                             <span>
                               <img
-                                src="{{ childlink.object.featured_image | image_url: width: 250, height: 250, crop: 'center' }}"
-                                alt="{{ childlink.object.featured_image.alt | escape }}"
+                                src="{{ childlink.object.images.last | image_url: width: 250, height: 250, crop: 'center' }}"
+                                alt="{{ childlink.object.images.last.alt | escape }}"
                                 width="30"
                                 height="30"
                                 loading="lazy"
@@ -58,6 +58,7 @@
                               >
                             </span>
                           {%- endif -%}
+                          {% comment %} {{ childlink.object.featured_image }}{{ childlink.object.images.last }} {% endcomment %}
                           <span>{{ childlink.title | escape }}</span>
                         </a>
                       {%- else -%}
