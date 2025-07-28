@@ -54,20 +54,10 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
-    },
-    "pop_uo_ch_FBLNej": {
-      "type": "pop-uo-CH",
-      "name": "弹出窗口",
-      "settings": {
-        "align_text": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "pop_uo_ch_FBLNej"
+    "header"
   ]
 }
