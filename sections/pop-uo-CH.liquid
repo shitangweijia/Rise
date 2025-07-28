@@ -72,6 +72,9 @@
     }
     .desktop-image { display: block; }
     .mobile-image { display: none; }
+    .{{ section.id }}_email .form__message{
+      margin-top: 6rem;
+    }
     @media screen and (max-width: 750px) {
       .{{ section.id }}_box{
         flex-direction: column;
@@ -94,6 +97,9 @@
       .mobile-image { display: block; }
       .{{ section.id }}_email > div{
         padding: 0 2.4rem 10rem 2.4rem;
+      }
+      .{{ section.id }}_email .form__message{
+        margin-top: -.5rem;
       }
     }
   {%- endstyle -%}
