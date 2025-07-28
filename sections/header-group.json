@@ -57,6 +57,7 @@
     },
     "pop_uo_ch_q8XRex": {
       "type": "pop-uo-CH",
+      "disabled": true,
       "name": "弹出窗口",
       "settings": {
         "enable_popup": true,

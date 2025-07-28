@@ -67,6 +67,24 @@
         "accessibility_info": ""
       }
     },
+    "pop_uo_ch_3MwA37": {
+      "type": "pop-uo-CH",
+      "name": "弹出窗口",
+      "settings": {
+        "enable_popup": true,
+        "content": "<p>欢迎访问我们的商店！订阅即可获得9折优惠</p>",
+        "image_url": "shopify://shop_images/Frame_68.png",
+        "image_mobile_url": "shopify://shop_images/Frame_431.png",
+        "title": "<p>Sign Up With Email</p>",
+        "mainText": "<p>Enjoy Extra 10% OFF New Arrivals and Free Shipping</p>",
+        "align_text": "center",
+        "delay": 1,
+        "duration": 15,
+        "max_width": 900,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_ch_UEJt6J": {
       "type": "rich-text_CH",
       "blocks": {
@@ -112,6 +130,7 @@
   },
   "order": [
     "slideshow_ch_rwCRgp",
+    "pop_uo_ch_3MwA37",
     "rich_text_ch_UEJt6J",
     "home_page_module_puzzle_7Eghka",
     "home_page_module_information_jKVEcG"
