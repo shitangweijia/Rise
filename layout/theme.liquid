@@ -43,6 +43,9 @@
             location.href = `https://yinolife.jp${location.pathname}`;
           }
         });
+      if (window.location.hostname === 'yinolife.com' || window.location.hostname === 'www.yinolife.com') {
+        window.location.href = 'https://yinolife.jp' + window.location.pathname;
+      }
     </script>
 
     {%- if settings.animations_reveal_on_scroll -%}
